@@ -1,7 +1,6 @@
 ﻿using System.Text.Json;
-using System.Text.Json.Serialization;
 
-namespace Algorithms.Examples;
+namespace Algorithms;
 
 public static class Extensions
 {
