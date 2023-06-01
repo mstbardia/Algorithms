@@ -8,4 +8,9 @@ public static class Extensions
     {
         return JsonSerializer.Serialize(inp);
     }
+    
+    public static string ToJson(this List<int> inp)
+    {
+        return JsonSerializer.Serialize(inp);
+    }
 }

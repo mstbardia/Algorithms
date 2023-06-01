@@ -11,7 +11,8 @@ Console.WriteLine(input.ToJson());
 
 //var result = Sort.OrderByAscending_BubbleSort(input);
 //var result = Sort.OrderByAscending_SelectionSort(input);
-var result = Sort.OrderByAscending_Insertion(input);
+//var result = Sort.OrderByAscending_Insertion(input);
+var result = Sort.OrderByAscending_MergeSort(input);
 
 
-Console.WriteLine(result.ToJson());
+ Console.WriteLine(result.ToJson());
